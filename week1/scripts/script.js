@@ -33,3 +33,9 @@ console.log(countLetters('andreininin', 'n'));
 console.log(occurences('andreininin', 'n'));
 
 //S01D04
+/// To do: Apply map() on an array of 5 elements which multiplies them by 3. 
+let arr = [1, 2, 3, 4, 5];
+console.log(arr);
+
+const map1 = arr.map((x) => x * 3);
+console.log(map1);
