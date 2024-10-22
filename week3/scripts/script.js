@@ -6,3 +6,11 @@ let b = s.split(',');
 console.log(b);
 
 
+
+function addStuff(a, b, c) {
+    return a + b + c
+}
+
+const memoizedAddStuff = memoize(addStuff)
+
+console.log(memoizedAddStuff(1, 2, 3))
