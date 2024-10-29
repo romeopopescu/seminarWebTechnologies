@@ -4,8 +4,8 @@
 
 const PI = 3.14159;
 
-function add(a, b) {
-    return a + b;
-}
+const add = (a, b) => a + b;
 
-module.exports = {PI, add};
+const substract = (a, b) => a - b;
+
+module.exports = {PI, add, substract};
