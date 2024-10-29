@@ -8,4 +8,8 @@ const add = (a, b) => a + b;
 
 const substract = (a, b) => a - b;
 
+const btn = document.getElementById('myBtn');
+btn.addEventListener('click', () => {
+    console.log('Congrats, you are using a DOM object here!');
+})
 module.exports = {PI, add, substract};
