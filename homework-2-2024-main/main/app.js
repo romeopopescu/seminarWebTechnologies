@@ -4,6 +4,12 @@
  * @param {object} values - a list of key value pairs where the key is a token to be replaced with the value in strings present in input
  */
 function render(input, values){
+    //1
+    if (input === null) {
+        return "";
+    }
+
+    //2
 }
 
 module.exports = {
